@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sannidhi-ai-portfolio/static/css/main.a7dcc8d2.css",
+    "main.js": "/sannidhi-ai-portfolio/static/js/main.cc33c1d0.js",
+    "index.html": "/sannidhi-ai-portfolio/index.html",
+    "main.a7dcc8d2.css.map": "/sannidhi-ai-portfolio/static/css/main.a7dcc8d2.css.map",
+    "main.cc33c1d0.js.map": "/sannidhi-ai-portfolio/static/js/main.cc33c1d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7dcc8d2.css",
+    "static/js/main.cc33c1d0.js"
+  ]
+}
