@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sannidhi-ai-portfolio/static/css/main.a7dcc8d2.css",
-    "main.js": "/sannidhi-ai-portfolio/static/js/main.0fa96519.js",
+    "main.js": "/sannidhi-ai-portfolio/static/js/main.bafe5423.js",
     "index.html": "/sannidhi-ai-portfolio/index.html",
     "main.a7dcc8d2.css.map": "/sannidhi-ai-portfolio/static/css/main.a7dcc8d2.css.map",
-    "main.0fa96519.js.map": "/sannidhi-ai-portfolio/static/js/main.0fa96519.js.map"
+    "main.bafe5423.js.map": "/sannidhi-ai-portfolio/static/js/main.bafe5423.js.map"
   },
   "entrypoints": [
     "static/css/main.a7dcc8d2.css",
-    "static/js/main.0fa96519.js"
+    "static/js/main.bafe5423.js"
   ]
 }
