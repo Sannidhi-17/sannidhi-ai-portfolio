@@ -2,8 +2,8 @@
 
 export const portfolioData = {
   personal: {
-    name: "Sannidhi Bookseller",
-    title: "Senior AI & Data Strategy Professional",
+    name: "Sannidhi Gajiwala",
+    title: "AI Engineer",
     experience: "3.5+ years",
     tagline: "AI/ML & Data Engineering Lead | Business Intelligence Innovator",
     bio: "AI/ML & Data Engineer with 3.5+ years of experience developing, fine-tuning, and deploying predictive machine learning models in production environments. Strong hands-on expertise in building data pipelines, researching advanced analytics techniques, and translating business processes into scalable ML solutions. Skilled in end-to-end model development—from data ingestion and feature engineering to training, validation, deployment, and monitoring.",
@@ -96,11 +96,14 @@ export const portfolioData = {
   ],
 
   skills: {
-    "Programming & Frameworks": ["Python", "PySpark", "SQL", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch"],
-    "Data Engineering & Cloud": ["Azure Databricks", "Snowflake", "GCP BigQuery", "AWS S3", "Azure Data Factory", "Terraform", "Docker", "Kubernetes"],
+    "Programming & Frameworks": {
+      "Languages": ["Python", "SQL", "PySpark"],
+      "Libraries & Frameworks": ["NumPy", "Pandas", "Scikit-learn", "TensorFlow", "PyTorch"]
+    },
+    "Data Engineering & Cloud": ["Azure", "GCP", "AWS S3", "Docker"],
     "Machine Learning": ["MLflow", "Model Training & Tuning", "Model Deployment", "Model Monitoring", "End-to-end ML Pipelines"],
     "Generative AI & LLMs": ["OpenAI", "Hugging Face", "LangChain", "LangGraph", "Agents", "Prompt Engineering", "RAG Implementation"],
-    "Analytics & Visualization": ["Power BI", "ElasticSearch", "Tableau", "Advanced Excel"],
+    "Analytics & Visualization": ["ElasticSearch", "Kibana", "Tableau", "Matplotlib","Seaborn", "Plotly", "Advanced Excel"],
     "Distributed Systems": ["Apache Spark", "Parallel Processing", "Data Optimization", "Asynchronous Programming"]
   },
 
