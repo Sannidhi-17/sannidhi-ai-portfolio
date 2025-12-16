@@ -96,15 +96,30 @@ export const portfolioData = {
   ],
 
   skills: {
-    "Programming & Frameworks": {
-      "Languages": ["Python", "SQL", "PySpark"],
-      "Libraries & Frameworks": ["NumPy", "Pandas", "Scikit-learn", "TensorFlow", "PyTorch"]
-    },
-    "Data Engineering & Cloud": ["Azure", "GCP", "AWS S3", "Docker"],
+    "Programming & Frameworks": ["Python", "SQL", "PySpark", "R", "Node Js"],
+    "Libraries & Frameworks": [
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "OpenCV",
+      "YOLO",
+      "Hugging Face Transformers",
+      "spaCy",
+      "NLTK",
+      "XGBoost",
+      "LightGBM",
+      "CatBoost",
+      "FastAPI",
+      "Flask"
+    ],
+    "Data Engineering & Cloud": ["Azure", "GCP", "AWS S3", "Docker", "Databricks"],
     "Machine Learning": ["MLflow", "Model Training & Tuning", "Model Deployment", "Model Monitoring", "End-to-end ML Pipelines"],
-    "Generative AI & LLMs": ["OpenAI", "Hugging Face", "LangChain", "LangGraph", "Agents", "Prompt Engineering", "RAG Implementation"],
+    "Generative AI & LLMs": ["OpenAI", "Hugging Face", "LangChain", "LangGraph", "Agents", "Prompt Engineering", "RAG Implementation", "Perplexity", "Pinecone"],
     "Analytics & Visualization": ["ElasticSearch", "Kibana", "Tableau", "Matplotlib","Seaborn", "Plotly", "Advanced Excel"],
-    "Distributed Systems": ["Apache Spark", "Parallel Processing", "Data Optimization", "Asynchronous Programming"]
+    "Distributed Systems": ["Apache Spark", "Parallel Processing", "Data Optimization", "Asynchronous Programming", "Kafka"]
   },
 
   certifications: [
