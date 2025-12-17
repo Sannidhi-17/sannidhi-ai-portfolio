@@ -59,39 +59,85 @@ export const portfolioData = {
 
   journey: [
     {
-      year: "2019-2021",
-      title: "Master of Science - AI System",
-      company: "School of EPITA, Paris",
-      description: "Pursued advanced studies in Artificial Intelligence Systems, building strong foundations in machine learning, deep learning, and AI system architecture.",
-      achievements: ["Published research on causality in COVID-19 data", "Specialized in ML and NLP"]
+      year: "May 2024 - Present",
+      title: "AI/ML Developer & Technical Lead (Remote role)",
+      company: "Webstertech Softwares, Surat, India",
+      description: "Developing full-scale CRM and management platforms for clients, including government consultants and US-based property management firms. Leading cross-functional analytics teams, building scalable ML solutions, developing KPI dashboards from call-center data, and designing end-to-end ML pipelines integrating structured and unstructured data." ,    
+      achievements: [ "Developing the Property Works platform for the USA market", 
+      "Built a CRM platform for government consultancy projects",
+      "Leading cross-functional development teams",
+      "Managed and mentored the analytics team to enhance performance"],
+      projects: [
+        {"name": "SaaS Web Application Development",
+          "client": "Property Works, US"},
+        {"name": "AI/ML-based Live Safety Guard Detection",
+          "client": "Indian Government, India"},
+        {"name": "SaaS Web Application Development",
+          "client": "N.N.Thakor, India"},
+        {"name": "CRM Development", 
+          "client": "Indian Government, India"}] 
+    },
+    {
+      year: "Sep 2021 - Jan 2024",
+      title: "Machine Learning Engineer",
+      company: "Agami Tech Pvt. Ltd., Surat, India",
+      description: "Developed LLM-based conversational assistant and automated solutions for healthcare workflows. Built dashboards and reporting systems using SQL and Excel.",
+      achievements: ["received 'The Best Emerging Talent' award", "Created LLM chatbot reducing response times by 20%", "Automated workflows reducing manual work by 20%", "Built performance KPI dashboards"],
+      projects: [
+        {
+          "name": "Customer Service Chatbot",
+          "client": "Oman Government HealthCare, Oman",
+          // "description": "Developed an LLM-based chatbot for automating customer support, reducing response time, and enhancing client engagement."
+        },
+        {
+          "name": "Voice Analytics Product",
+          "client": "Intalk.io, Mumbai, India",
+          // "description": "Built a voice analytics solution to analyze call center conversations, generate reports, and improve customer service quality."
+        }
+      ]
     },
     {
       year: "Nov 2020 - May 2021",
       title: "Research & AI Developer",
       company: "Mediatum Oy, Finland",
       description: "Engineered scalable web application utilizing advanced ML techniques including statistical modelling and NLP to analyze multilingual unstructured text data.",
-      achievements: ["Built multilingual text analysis system", "Delivered actionable consumer insights", "Applied NLP techniques at scale"]
+      achievements: ["Built multilingual text analysis system", "Delivered actionable consumer insights", "Applied NLP techniques at scale"],
+      projects: [
+        {
+          "name": "Web Application Topic Modelling in Finnish Language",
+          "client": "Mediatum Oy, Finland",
+          // "description": "Developed an LLM-based chatbot for automating customer support, reducing response time, and enhancing client engagement."
+        },
+      ]
     },
     {
-      year: "Sep 2021 - Jan 2024",
-      title: "Machine Learning Engineer",
-      company: "Agami Tech Pvt. Ltd., Surat",
-      description: "Developed LLM-based conversational assistant and automated solutions for healthcare workflows. Built dashboards and reporting systems using SQL and Excel.",
-      achievements: ["Created LLM chatbot reducing response times by 20%", "Automated workflows reducing manual work by 20%", "Built performance KPI dashboards"]
+      year: "2019-2021",
+      title: "Master of Science - Artificial Intelligence Systems",
+      company: "School of EPITA, Paris, France",
+      description: "Pursued advanced studies in Artificial Intelligence Systems, building strong foundations in machine learning, deep learning, and AI system architecture.",
+      achievements: ["Published research on causality in COVID-19 data", "Specialized in ML and NLP"],
+      projects: [
+        {
+          "name": "Self Drive Robo Car",
+          "client": "Final Year Project",
+          // "description": "Developed an LLM-based chatbot for automating customer support, reducing response time, and enhancing client engagement."
+        },
+        {
+          "name": "Face Mask Detection",
+          "client": "Mid-term Project",
+          // "description": "Developed an LLM-based chatbot for automating customer support, reducing response time, and enhancing client engagement."
+        }
+      ]
     },
     {
-      year: "May 2024 - Dec 2024",
-      title: "AI/ML Developer & Technical Lead",
-      company: "Webstertech Softwares, India",
-      description: "Led cross-functional analytics team, developed KPI dashboards from call-center data, and designed end-to-end ML pipelines integrating structured & unstructured data.",
-      achievements: ["Managed and mentored analytics team", "Improved marketing metrics accuracy by 20%", "Built cloud-native AI deployment pipelines"]
-    },
-    {
-      year: "Dec 2024 - Present",
-      title: "AI/ML Developer & Technical Lead",
-      company: "Self-Employed, Edmonton",
-      description: "Developing full-scale CRM and management platforms for clients including government consultants and US-based property management firms. Leading teams and building scalable ML solutions.",
-      achievements: ["Built CRM platform for government consultant", "Developing Property Works platform (USA)", "Leading cross-functional development teams"]
+      year: "2015-2019",
+      title: "Bachelor of Engineering - Electronics and Communications",
+      company: "Sarvajanik College of Engineering And Technology (SCET), Surat, India",
+      description: "Completed a rigorous undergraduate program in Electronics and Communications, with a strong focus on Artificial Intelligence, Machine Learning, and Deep Learning. Gained hands-on experience in AI system design, signal processing, and applied research projects.",
+      achievements: [
+        "Published IEEE research paper on AI applications in data analysis",
+        "Ranked among the top three in the EC batch",
+      ],
     }
   ],
 
@@ -123,23 +169,48 @@ export const portfolioData = {
   },
 
   certifications: [
+
+    {
+      title: "Docker & Kubernetes: The Practical Guide",
+      issuer: "Udemy (Online Certification)",
+      date: "2025",
+      // credentialId: "SQL-BOOT-2020"
+    },
+    {
+      title: "GCP ACE - Google Cloud Associate Cloud Engineer certification",
+      issuer: "Udemy (Online Certification)",
+      date: "2024",
+      // credentialId: "SQL-BOOT-2020"
+    },
+    {
+      title: "Complete Data Science,Machine Learning,DL,NLP Bootcamp",
+      issuer: "Udemy (Online Certification)",
+      date: "2024",
+      // credentialId: "PYTORCH-CV-2023"
+    },
     {
       title: "Complete Guide To Elasticsearch",
-      issuer: "Online Certification",
+      issuer: "Udemy (Online Certification)",
       date: "2023",
-      credentialId: "ES-CERT-2023"
+      // credentialId: "ES-CERT-2023"
     },
     {
       title: "PyTorch For Deep Learning And Computer Vision",
-      issuer: "Online Certification",
+      issuer: "Udemy (Online Certification)",
       date: "2023",
-      credentialId: "PYTORCH-CV-2023"
+      // credentialId: "PYTORCH-CV-2023"
+    },
+    {
+      title: "Data Science and machine Learning with R",
+      issuer: "Udemy (Online Certification)",
+      date: "2021",
+      // credentialId: "PYTORCH-CV-2023"
     },
     {
       title: "The Complete SQL Bootcamp 2020",
-      issuer: "Online Certification",
+      issuer: "Udemy (Online Certification)",
       date: "2020",
-      credentialId: "SQL-BOOT-2020"
+      // credentialId: "SQL-BOOT-2020"
     }
   ],
 
