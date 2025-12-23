@@ -76,14 +76,14 @@ const Projects = () => {
                   <Github className="h-4 w-4 mr-2" />
                   Code
                 </Button>
-                <Button
+                {/* <Button
                   size="sm"
                   className="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white border-0"
                   onClick={() => window.open(project.demo, '_blank')}
                 >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   Demo
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           ))}

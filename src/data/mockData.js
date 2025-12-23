@@ -13,47 +13,55 @@ export const portfolioData = {
     github: "github.com/Sannidhi-17",
     location: "Edmonton, AB, Canada"
   },
+  // MCQ - Generator
 
   projects: [
     {
       id: 1,
-      title: "CRM Platform for Government Consultant",
-      description: "Developed a full-scale CRM platform for N.N. Thakor (Indian Government Consultant) with automated analytics dashboards that significantly improved marketing and operational accuracy.",
-      technologies: ["Python", "SQL", "Azure", "Power BI", "Data Pipelines"],
-      impact: "Improved marketing accuracy, streamlined operations",
-      image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd",
-      github: "#",
-      demo: "#"
+      title: "AI Resume Enhancer (GenAI-Powered Resume Optimization Tool)",
+      description: "Built a GenAI-powered web application that analyzes and enhances resumes by tailoring content to specific job descriptions. The system summarizes, rewrites, and improves resume bullet points using a locally hosted large language model, ensuring complete data privacy and offline functionality.",
+      technologies: ["Python", "Streamlit", "Ollama", "Gemma 3 (4B)", "PyPDF2", "Pydantic"],
+      impact: "Automated resume optimization, improved job-specific relevance, ensured 100% offline and privacy-focused AI processing",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7crxGCZ6FQvkk4Sq46fEJVS3QoajqP1MknCaNpDuHvw&s",
+      github: "https://github.com/Sannidhi-17/AI-Resume-Enhancer",
+      // demo: "#"
     },
     {
       id: 2,
-      title: "Property Works Management Platform",
-      description: "Building a web-based management and analytics platform for Property Works (USA) with scalable backend workflows, structured data pipelines, and dynamic KPI dashboards.",
-      technologies: ["Python", "SQL", "React", "Azure", "Data Engineering"],
-      impact: "Optimized operational reporting with data-driven insights",
-      image: "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf",
-      github: "#",
-      demo: "#"
+      title: "AI Email Drafting Assistant",
+      description: "Developed a Streamlit-based AI assistant that reads incoming emails, generates concise summaries, and drafts polite, professional, and actionable replies. The system leverages LangChain with Groq LLM and maintains conversational context using memory, enabling consistent and context-aware responses across email threads.",
+      technologies: ["Python", "Streamlit", "LangChain", "Groq LLM", "ConversationBufferMemory"],
+      impact: "Reduced manual email drafting time, improved response quality, and enabled context-aware communication across ongoing email conversations",
+      image: "https://cdn.mos.cms.futurecdn.net/7YSmYZCfTNzJeivwGhrD9L-1200-80.png.webp",
+      github: "https://github.com/Sannidhi-17/AI-Email-Drafting-Assistant?tab=readme-ov-file#ai-email-drafting-assistant",
+      // demo: "#"
     },
     {
       id: 3,
-      title: "LLM-based Healthcare Conversational Assistant",
-      description: "Created an LLM-based conversational assistant integrated via RASA API for healthcare workflows, reducing response times and improving patient interaction efficiency.",
-      technologies: ["LLMs", "RASA", "NLP", "Python", "API Integration"],
-      impact: "Reduced response times by 20%, streamlined healthcare workflows",
-      image: "https://images.unsplash.com/photo-1674027444485-cec3da58eef4",
-      github: "#",
-      demo: "#"
+      title: "Gemma 3 Local Chatbot (WhatsApp-Style UI)",
+      description: "Built a fully local, WhatsApp-style conversational chatbot running on macOS using Ollama with the Gemma 3 (4B) large language model. The application provides a clean, real-time chat experience via Streamlit, enabling private and offline AI conversations without relying on external APIs or internet connectivity.",
+      technologies: ["Python", "Streamlit", "Ollama", "Gemma 3 (4B)", "Local LLM"],
+      impact: "Enabled privacy-first, offline conversational AI with zero API costs and full local control over data and inference",
+      image: "https://www.bluebi.com/wp-content/uploads/2023/05/BBI-x-Chatbot-Andy-1.jpg",
+      github: "https://github.com/Sannidhi-17/local-llm-chatbot",
+      // demo: "#"
     },
     {
       id: 4,
-      title: "Multilingual Text Analysis Application",
-      description: "Engineered and deployed a scalable web application utilizing advanced ML techniques including statistical modelling and NLP to analyze multilingual unstructured text data, extracting actionable consumer insights.",
-      technologies: ["Python", "NLP", "Machine Learning", "Statistical Modelling", "Web Development"],
-      impact: "Provided valuable data-driven consumer intelligence",
+      title: "AI-Powered MCQ Generator",
+      description: "Developed an AI-driven MCQ Generator that automatically creates multiple-choice questions from PDFs or text inputs using transformer-based language models. The application leverages LangChain with Hugging Face Transformers to extract, understand, and generate high-quality questions, making it useful for exam preparation, training, and e-learning platforms.",  technologies: ["Python", "NLP", "Machine Learning", "Statistical Modelling", "Web Development"],
+      technologies: [
+        "Python",
+        "LangChain",
+        "Hugging Face Transformers",
+        "PyTorch",
+        "Streamlit",
+        "PyPDF2"
+      ],
+      impact: "Automated question generation reduced manual content creation effort and improved learning material preparation efficiency",
       image: "https://images.unsplash.com/photo-1557562645-4eee56b29bc1",
-      github: "#",
-      demo: "#"
+      github: "https://github.com/Sannidhi-17/MCQ-Generator/blob/main/setup.py",
+      // demo: "#"
     }
   ],
 
@@ -72,7 +80,7 @@ export const portfolioData = {
           "client": "Property Works, US"},
         {"name": "AI/ML-based Live Safety Guard Detection",
           "client": "Indian Government, India"},
-        {"name": "SaaS Web Application Development",
+        {"name": "Web Application Development",
           "client": "N.N.Thakor, India"},
         {"name": "CRM Development", 
           "client": "Indian Government, India"}] 
