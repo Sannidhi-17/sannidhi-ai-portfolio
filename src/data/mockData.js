@@ -9,7 +9,8 @@ export const portfolioData = {
     bio: "AI/ML & Data Engineer with 3.5+ years of experience developing, fine-tuning, and deploying predictive machine learning models in production environments. Strong hands-on expertise in building data pipelines, researching advanced analytics techniques, and translating business processes into scalable ML solutions. Skilled in end-to-end model development—from data ingestion and feature engineering to training, validation, deployment, and monitoring.",
     email: "sannidhibookseller@gmail.com",
     phone: "+1-(587)-938-6368",
-    linkedin: "linkedin.com/in/sannidhi-gajiwala-146169132/",
+    // linkedin: "linkedin.com/in/sannidhi-gajiwala-146169132/",
+    linkedin: "https://www.linkedin.com/in/sannidhi-gajiwala-146169132/",
     github: "github.com/Sannidhi-17",
     location: "Edmonton, AB, Canada."
   },
